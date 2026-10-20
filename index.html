@@ -9,7 +9,8 @@
 <meta property="og:description" content="Top-tier hospitals in Shanghai & Beijing. Transparent pricing. No waiting lists. One Shanghai-based team handling your whole journey." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://allyviaa.com/" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%230d7a6f'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" />
+<meta property="og:image" content="https://allyviaa.com/logo-header.jpg" />
+<link rel="icon" type="image/png" href="/logo-icon.png" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -29,6 +30,7 @@ tailwind.config = { theme: { extend: {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Allyviaa",
+  "logo": "https://allyviaa.com/logo-icon.png",
   "url": "https://allyviaa.com/",
   "email": "hz@allyviaa.com",
   "description": "Medical travel coordination service helping international patients access top-tier hospitals in Shanghai and Beijing, China.",
@@ -56,11 +58,8 @@ tailwind.config = { theme: { extend: {
 <!-- ===== Nav ===== -->
 <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-100">
   <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-    <a href="#top" class="flex items-center gap-2.5">
-      <span class="w-9 h-9 rounded-full bg-teal2-700 flex items-center justify-center">
-        <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
-      </span>
-      <span class="font-serif text-2xl font-semibold tracking-tight">Allyviaa</span>
+    <a href="#top" class="flex items-center">
+      <img src="/logo-header.jpg" alt="Allyviaa — Healthcare Management" class="h-11 w-auto" />
     </a>
     <nav class="hidden md:flex items-center gap-7 text-sm text-slate-600">
       <a href="#why" class="hover:text-teal2-700">Why China</a>
